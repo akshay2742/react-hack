@@ -3,6 +3,10 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import DestructoringArray from './components/DestructoringArray';
+import FunctionClick from './components/FunctionClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
       <Welcome name="Yash" city="Patna"/>
       <Message />
       <Counter />
+      <DestructoringArray framework="react" name="Chandler"/>
+      <FunctionClick />
+      <EventBind />
+      <ParentComponent />
     </div>
   );
 }
