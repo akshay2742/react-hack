@@ -14,7 +14,7 @@ class EventBind extends Component {
       // this.changeHandler = this.changeHandler.bind(this)
     }
 
-    changeHandler(){
+    changeHandler = () => {
         this.setState({
             way1: "way1 Goodbye"
         })

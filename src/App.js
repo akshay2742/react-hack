@@ -7,24 +7,26 @@ import DestructoringArray from './components/DestructoringArray';
 import FunctionClick from './components/FunctionClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Akshay" city="Bareilly">
+      {/* <Greet name="Akshay" city="Bareilly">
         <p>Hello from children</p>
       </Greet>
       <Greet name="Aditya" city="Delhi">
         <button>Submit</button>
       </Greet>
       <Greet name="Aman" city="Raipur"></Greet> 
-      <Welcome name="Yash" city="Patna"/>
+      <Welcome name="Yash" city="Patna"/> */}
       <Message />
       <Counter />
       <DestructoringArray framework="react" name="Chandler"/>
       <FunctionClick />
       <EventBind />
       <ParentComponent />
+      <UserGreeting />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 
-function DestructoringArray(props) {
-    const {framework, name} = props
+function DestructoringArray({framework,name}) {
   return (
     <div>DestructoringArray using {framework} by {name}</div>
   )
